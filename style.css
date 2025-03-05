@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    background-color: aquamarine;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: underline; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+
+  .home:hover {
+    text-decoration: none;
+  }
+  
+  .haqq {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #back {
+    background-color: greenyellow;
+    margin-right: 200px;
+  }
+
+  img {
+    width: 450px;
+    height: 450px;
+    transform: all 2s;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .sticky {
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
